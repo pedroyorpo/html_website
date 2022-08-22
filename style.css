@@ -113,7 +113,7 @@ section .title::after{
 }
 .navbar .menu li a{
     display: block;
-    color: #fff;
+    color: black;
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
@@ -165,7 +165,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-   background-color:black;
+   background-color:gray;
    background-image: url(me.jpg);
     height: 100vh;
     color: #fff;
@@ -259,9 +259,9 @@ section .title::after{
 }
 
 /* services section styling */
-.services, .teams{
-    color:#fff;
-    background: #111;
+.services, .about{
+    color:black;
+    background:white;
 }
 .services .title::before,
 .teams .title::before{
